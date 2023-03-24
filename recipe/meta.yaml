@@ -1,5 +1,5 @@
 {% set name = "py-geth" %}
-{% set version = "3.10.0" %}
+{% set version = "3.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py-geth-{{ version }}.tar.gz
-  sha256: a0c5871c50d1ff2699567e77f961ab54b43007288ddf415c950f945d28b25212
+  sha256: 584ba92f227249c65f102f5734e48fc80e48702889e16623d5db2b43ba69a11c
 
 build:
   noarch: python
